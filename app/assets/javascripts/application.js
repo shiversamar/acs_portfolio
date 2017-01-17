@@ -18,3 +18,4 @@
 //= require stellar
 //= require smoothScroll
 //= require scripts
+//= require search

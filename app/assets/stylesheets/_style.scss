@@ -1,14 +1,11 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  // color: #777777;
+  color: #777;
 }
 .text-primary {
   color: #fed136;
@@ -45,7 +42,28 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: #FA8B60;
 }
+
+
+h4 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(76,76,76,0.8);
+}
+
+
+#lg {
+  max-width: 80px;
+  max-height: 500px;
+  min-width: 80px;
+  max-height: 800px;
+
+}
+
+
+
 .img-centered {
   margin: 0 auto;
 }
@@ -237,7 +255,86 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+
 }
+
+
+section#contact {
+  background-image: url(image_path("sub.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  // color: rgba(0,255,0,0.3);
+  color: green;
+}
+
+
+section#experience {
+  background-image: url(image_path("bldg.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+
+}
+
+section#portfolio {
+  background-image: url(image_path("woman.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+
+section#about {
+  background-image: url(image_path("coffee.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+section#skills {
+  background-image: url(image_path("pexels.jpg"));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -303,15 +400,46 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
+#portfolio .img-responsive {
+max-width: 375px;
+min-width: 375px;
+max-height: 280px;
+min-height: 280px;
+object-fit: fill;
+object-position: center;
+
+.pics_size {
+  max-width: 1px;
+  min-width: 1px;
+  max-height: 1px;
+  min-height: 1px;
+  object-fit: fill;
+}
+
+
+
+
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+  // max-width: 300px;
+  // min-width: 300px;
+  // // max-height: 200px;
+  // min-height: 200px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
   margin: 0 auto;
+  max-width: 375px;
+  min-width: 375px;
+  max-height: 280px;
+  min-height: 280px;
+  object-fit: contain;
+
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
@@ -322,14 +450,15 @@ section h3.section-subheading {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  width: 100%;
-  height: 20px;
+  max-width: 375px;
+  min-width: 375px;
   font-size: 20px;
   text-align: center;
   top: 50%;
@@ -344,7 +473,8 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 375px;
+  min-width: 375px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
@@ -368,6 +498,15 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+
+@media (min-width: 767px) {
+  #skill .skill-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -420,6 +559,10 @@ section h3.section-subheading {
   margin-left: 0;
   width: 80px;
   height: 80px;
+  // max-width: 80px;
+  // min-width: 80px;
+  // min-height: 80px;
+  // max-height: 80px;
   position: absolute;
   z-index: 100;
   background-color: #fed136;
@@ -554,12 +697,14 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-section#contact {
-  background-color: #222222;
-  background-image: url('../images/coffee.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
+// section#contact {
+//   background-color: #222222;
+//   background-image: url(image_path("globe.jpg"));
+//   background-position: center;
+//   background-repeat: no-repeat;
+//
+//
+// }
 section#contact .section-heading {
   color: white;
 }
@@ -584,7 +729,8 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  // color: #eeeeee;
+  color: black;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
@@ -744,4 +890,56 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+/* RESPONSIVE SCREEN , non-retina */
+@media only screen and (min-width: 320px) {
+  /* Small screen, non-retina */
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+
+  /* Small screen, retina, stuff to override above media query */
+
+}
+
+@media only screen and (min-width: 700px) {
+
+  /* Medium screen, non-retina */
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
+
+  /* Medium screen, retina, stuff to override above media query */
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+  /* Large screen, non-retina */
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+  /* Large screen, retina, stuff to override above media query */
+
 }

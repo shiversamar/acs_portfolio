@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500|Montserrat:400'%>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -17,18 +18,16 @@
     <!-- Theme CSS -->
     <!-- <link href="https://blackrockdigital.github.io/startbootstrap-agency/css/agency.min.css" rel="stylesheet"> -->
 
-    <!-- Custom Fonts -->
-    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts  -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   </head>
-
   <body id="page-top" class="index">
 
     <!-- Navigation -->
@@ -39,8 +38,21 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Amar Shivers</a>
+          <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-play-circle"></i><spam class="light">Amar Shivers</span><a/a>
         </div>
+
+
+        <!-- <% if current_page?(root_path) %>
+								<%= link_to "Amar Shivers", "#page-top", "data-turbolinks" => false %>
+							<% else %>
+								<%= link_to "Amar Shivers", root_path, "data-turbolinks" => false %>
+							<% end %>
+
+							<div class="mini-box mini-topleft animated fadeInLeftBig"></div>
+							<div class="mini-box mini-topright animated fadeInLeftBig"></div>
+							<div class="mini-box mini-bottomleft animated fadeInLeftBig"></div>
+							<div class="mini-box mini-bottomright animated fadeInLeftBig"></div> -->
+
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,13 +61,16 @@
               <a href="#page-top"></a>
             </li>
             <li>
-              <a class="page-scroll" href="#services">HOME</a>
+              <a class="page-scroll" href="#about">About</a>
             </li>
             <li>
-              <a class="page-scroll" href="#portfolio">ABOUT</a>
+              <a class="page-scroll" href="#experience">Experience</a>
             </li>
             <li>
-              <a class="page-scroll" href="#about">PORTFOLIO</a>
+              <a class="page-scroll" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolio">Portfolio</a>
             </li>
             <li>
               <a class="page-scroll" href="#contact">Contact</a>
@@ -68,29 +83,24 @@
     </nav>
     <!-- end navbar -->
 
-
-
-
           <%= yield %>
 
-
-
-  
-
-
+ <!-- footer -->
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+
+            <p>&copy; Amar Shivers<span class="copyright"> | </span>All rights reserved <%= Time.now.year %></p>
+
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-              <li><a href="#"><i class="fa fa-twitter"></i></a>
+              <li><a href="https://twitter.com/@shiversamar"><i class="fa fa-twitter fa-fw animated infinite flash"></i></a>
               </li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a>
+              <li><a href="https://github.com/shiversamar"><i class="fa fa-github fa-fw animated infinite rubberBand"></i></a>
               </li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a>
+              <li><a href="https://www.linkedin.com/in/amar-shivers"><i class="fa fa-linkedin fa-fw animated infinite tada"></i></a>
               </li>
             </ul>
           </div>
