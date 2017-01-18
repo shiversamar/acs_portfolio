@@ -41,7 +41,7 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   color: #FA8B60;
 }
 
@@ -49,18 +49,10 @@ h6 {
 h4 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   color: rgba(76,76,76,0.8);
 }
 
-
-#lg {
-  max-width: 80px;
-  max-height: 500px;
-  min-width: 80px;
-  max-height: 800px;
-
-}
 
 
 
@@ -172,6 +164,21 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+
+// h2 {
+//
+//   color: #fed136;
+//   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+//   font-weight: 800;
+//   border-radius: 3px;
+//   font-size: 18px;
+//   padding: 20px 40px;
+//
+// }
+
+
+
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -244,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url(image_path("laptop.jpg"));
+  background-image: url(image_path("header.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -260,7 +267,7 @@ header {
 
 
 section#contact {
-  background-image: url(image_path("lights.jpg"));
+  background-image: url(image_path("contact.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -271,12 +278,12 @@ section#contact {
   -o-background-size: cover;
   text-align: center;
   // color: rgba(0,255,0,0.3);
-  color: green;
+  // color: green;
 }
 
 
 section#experience {
-  background-image: url(image_path("clouds.jpg"));
+  background-image: url(image_path("experience.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -291,7 +298,7 @@ section#experience {
 }
 
 section#portfolio {
-  background-image: url(image_path("woman.jpg"));
+  background-image: url(image_path("portfolio.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -306,7 +313,7 @@ section#portfolio {
 
 
 section#about {
-  background-image: url(image_path("coffee.jpg"));
+  background-image: url(image_path("about.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -320,7 +327,7 @@ section#about {
 }
 
 section#skills {
-  background-image: url(image_path("pexels.jpg"));
+  background-image: url(image_path("skills.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -408,19 +415,8 @@ max-height: 280px;
 min-height: 280px;
 object-fit: fill;
 object-position: center;
-
-.pics_size {
-  max-width: 1px;
-  min-width: 1px;
-  max-height: 1px;
-  min-height: 1px;
-  object-fit: fill;
 }
 
-
-
-
-}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -706,7 +702,19 @@ aside.clients img {
 //
 // }
 section#contact .section-heading {
-  color: white;
+  // color: white;
+  // color: #fed136;
+  // font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  // font-weight: 800;
+  // border-radius: 3px;
+  // font-size: 18px;
+  // padding: 20px 40px;
+
+
+
+
+
+
 }
 section#contact .form-group {
   margin-bottom: 25px;
