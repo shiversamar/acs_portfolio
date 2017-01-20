@@ -5,22 +5,25 @@ body {
 }
 .text-muted {
   // color: #777777;
-  color: #277b1e;
+  color: green;
+  font-weight: bolder;
   // color: #92d644;
+
 }
 .text-primary {
   color: #fed136;
+  font-weight: bolder;
 }
 p {
   font-size: 16px;
   line-height: 1.75;
 }
 p.large {
-  font-size: 20px;
+  font-size:18px;
   // font-weight:900;
   font-weight: bolder;
-  // color: green;
-  color: #022304;
+  color: green;
+  // color: #022304;
 
 }
 a,
@@ -57,7 +60,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 800;
   // color: rgba(76,76,76,0.20);
-  color: blue;
+  color: green;
 }
 
 h3 {
@@ -286,7 +289,7 @@ header {
 
 
 section#contact {
-  background-image: url(image_path("letter.jpg"));
+  background-image: url(image_path("about.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -332,7 +335,7 @@ section#portfolio {
 
 
 section#about {
-  background-image: url(image_path("about.jpg"));
+  background-image: url(image_path("desk.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -347,7 +350,7 @@ section#about {
 }
 
 section#skills {
-  background-image: url(image_path("contact.jpg"));
+  background-image: url(image_path("computer.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -429,10 +432,10 @@ section h3.section-subheading {
 }
 
 #portfolio .img-responsive {
-max-width: 375px;
-min-width: 375px;
-max-height: 280px;
-min-height: 280px;
+max-width: 300px;
+min-width: 300px;
+max-height: 200px;
+min-height: 200px;
 object-fit: fill;
 object-position: center;
 }
@@ -449,10 +452,10 @@ object-position: center;
   display: block;
   position: relative;
   margin: 0 auto;
-  max-width: 375px;
-  min-width: 375px;
-  max-height: 280px;
-  min-height: 280px;
+  max-width: 300px;
+  min-width: 300px;
+  max-height: 200px;
+  min-height: 200px;
   object-fit: contain;
 
 
@@ -473,8 +476,8 @@ object-position: center;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  max-width: 375px;
-  min-width: 375px;
+  max-width: 300px;
+  min-width: 300px;
   font-size: 20px;
   text-align: center;
   top: 50%;
@@ -489,8 +492,8 @@ object-position: center;
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 375px;
-  min-width: 375px;
+  max-width: 300px;
+  min-width: 300px;
   margin: 0 auto;
   background-color: white;
   text-align: center;
