@@ -19,3 +19,4 @@
 //= require smoothScroll
 //= require scripts
 //= require search
+//= require contact_me

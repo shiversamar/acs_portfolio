@@ -6,16 +6,22 @@ body {
 .text-muted {
   // color: #777777;
   color: #277b1e;
+  // color: #92d644;
 }
 .text-primary {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 20px;
+  // font-weight:900;
+  font-weight: bolder;
+  // color: green;
+  color: #022304;
+
 }
 a,
 a:hover,
@@ -35,8 +41,8 @@ a.active {
 }
 h1,
 h2,
-h3,
-h4,
+// h3,
+// h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -50,8 +56,20 @@ h4 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 800;
-  color: rgba(76,76,76,0.8);
+  // color: rgba(76,76,76,0.20);
+  color: blue;
 }
+
+h3 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // text-transform: uppercase;
+  font-weight: 800;
+  // color: rgba(76,76,76,0.20);
+  font-size: 25px;
+  color: green;
+}
+
+
 
 
 
@@ -262,12 +280,13 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  height: 900px;
 
 }
 
 
 section#contact {
-  background-image: url(image_path("contact.jpg"));
+  background-image: url(image_path("letter.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -323,11 +342,12 @@ section#about {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+
   color: black;
 }
 
 section#skills {
-  background-image: url(image_path("skills.jpg"));
+  background-image: url(image_path("contact.jpg"));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
