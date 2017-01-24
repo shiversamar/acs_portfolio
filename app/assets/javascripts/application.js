@@ -20,3 +20,5 @@
 //= require scripts
 //= require search
 //= require contact_me
+//= require agency
+//= jqBootstrapValidation.js
