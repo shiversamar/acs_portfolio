@@ -10,7 +10,7 @@
     <!-- 1st portfolio-item -->
     <div class="row">
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://github.com/shiversamar/BattleShipDay1" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
@@ -20,12 +20,13 @@
         </a>
         <div class="portfolio-caption">
           <h4>BATTLESHIP GAME</h4>
-          <p class="text-muted">Html,CSS and Javascripts</p>
+          <p class="text-muted">Front-End Web Development</p>
         </div>
       </div>
+
     <!-- 2nd portfolio-item -->
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://github.com/shiversamar/portfolio" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
@@ -34,48 +35,48 @@
           <%= image_tag(image_path('port.jpg'), class:'img-responsive') %>
         </a>
         <div class="portfolio-caption">
-          <h4>PORTFOLIO</h4>
-          <p class="text-muted">Html,Css and Bootstrap</p>
+          <h4>HTML PORTFOLIO</h4>
+          <p class="text-muted">Front-End End Development</p>
         </div>
       </div>
 
     <!-- 3rd portfolio-item -->
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://github.com/shiversamar/startbootstrap" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <%= image_tag(image_path('boot.jpg'), class:'img-responsive size') %>
+          <%= image_tag(image_path('heroku2.jpg'), class:'img-responsive size') %>
         </a>
         <div class="portfolio-caption">
-          <h4>10 AMUSEMENT PARK</h4>
-          <p class="text-muted">Html,Css and Bootstrap</p>
+          <h4>MY PORTFOLIO</h4>
+          <p class="text-muted">RoR/Full Stack Development</p>
         </div>
       </div>
       <hr class="primary">
     <!-- 4th portfolio-item -->
 
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://github.com/christinabuster/Consumable_app" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <%= image_tag(image_path('cons.jpg'), class:'img-responsive') %>
+          <%= image_tag(image_path('41.jpg'), class:'img-responsive') %>
         </a>
         <div class="portfolio-caption">
-          <h4>CONSUMABLE APP</h4>
-          <p class="text-muted">Ruby on Rails </p>
+          <h4>TIC TAC TOE GAME</h4>
+          <p class="text-muted">Front-End Web Development</p>
         </div>
       </div>
 
 
   <!-- 5th portfolio-item -->
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://github.com/shiversamar/magic8" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
@@ -85,13 +86,13 @@
         </a>
         <div class="portfolio-caption">
           <h4>CRYSTAL BALL GAME</h4>
-          <p class="text-muted">Html,Css and Javascripts</p>
+          <p class="text-muted">Front-End Web Development</p>
         </div>
       </div>
 
   <!-- 6th portfolio-item -->
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="http://amarshivers.herokuapp.com/" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="fa fa-plus fa-3x"></i>
@@ -101,7 +102,7 @@
         </a>
         <div class="portfolio-caption">
           <h4>ACS PORTFOLIO</h4>
-          <p class="text-muted">Ruby on Rails</p>
+          <p class="text-muted">RoR/Full Stack Development</p>
         </div>
       </div>
 
@@ -109,7 +110,297 @@
         <a href="https://github.com/shiversamar" target="_blank" class="btn btn-success btn-lg active animated infinite pulse" role="button" aria-pressed="true">FIND OUT MORE<i class="fa fa-github fa-fw animated infinite rubberBand"></i></a></p>
 
 
-
     </div>
   </div>
+
 </section>
+
+<!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>BattleShip Game</h2>
+                                <p class="item-intro text-muted">Build with Jquery</p>
+                                  <%= image_tag(image_path('batt.jpg'), class:'img-responsive img-centered') %>
+
+                                  <%= image_tag(image_path('12.jpg'), class:'img-responsive img-centered') %>
+
+                                  <%= image_tag(image_path('13.jpg'), class:'img-responsive img-centered') %>
+
+
+
+                                <p>This Battleship Game was created during a colloborative pair programming session with jQuery, HTML and CSS! Game Play: The basic Battleship rules and instructions for playing the game are each player calls out one shot (or coordinate) each turn in attempt to hit one of their opponent's ships. To “hit” one of your opponent's ships, you must call out a letter and a number of where you think one of their ships is located.</p>
+                                <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/battleship11_game" target="_blank"> github.com/shiversamar/battleship11_game</a></p>
+                                <p><strong>URL:</strong><a href="https://shiversamar.github.io/battleship11_game/" target="_blank">BattleShip Game</a></p>
+
+
+
+                                <ul class="list-inline">
+                                  <li><strong>Date:</strong> October 2016</li>
+                                  <li><strong>Setting:</strong> <a href="https://www.learnacademy.org/days/478" target="_blank">Learn Academy Exercise</a></li>
+                                  <li><strong>Category:</strong> Full Stack Development</li>
+                                </ul>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>HTML PORTFOLIO</h2>
+                                <p class="item-intro text-muted">Built with Jquery.</p>
+
+                                <%= image_tag(image_path('port.jpg'), class:'img-responsive img-centered') %>
+
+                                <%= image_tag(image_path('21.jpg'), class:'img-responsive img-centered') %>
+
+                                <%= image_tag(image_path('22.jpg'), class:'img-responsive img-centered') %>
+
+                                <%= image_tag(image_path('23.jpg'), class:'img-responsive img-centered') %>
+
+
+
+                                <p>This HTML Portfolio was created using  jQuery, HTML and CSS with animation and responsive website!</p>
+
+                                <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/html_portfolio" target="_blank"> github.com/shiversamar/html_portfolio</a></p>
+
+                                <p><strong>Live View URL:</strong><a href="https://shiversamar.github.io/html_portfolio/" target="_blank">html_portfolio</a></p>
+
+
+
+                                <ul class="list-inline">
+                                  <li><strong>Date:</strong> December 2016</li>
+                                  <li><strong>Setting:</strong> <a href="https://github.com/shiversamar/html_portfolio" target="_blank">Personal Project</a></li>
+                                  <li><strong>Category:</strong> Front End Development</li>
+                                </ul>
+
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>My Portfolio</h2>
+                                <p class="item-intro text-muted">Built with Ruby on Rails</p>
+
+                                <%= image_tag(image_path('heroku2.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('1.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('2.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('3.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('4.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('5.jpg'), class:'img-responsive img-centered') %>
+
+
+
+
+                                   <p>This My Portfolio was created using Bootstrap,HTML,Jquery,CSS and Ruby on Rails with animation, carousel, plain design background!</p>
+
+                                  <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/my_portfolio" target="_blank"> github.com/shiversamar/my_portfolio</a></p>
+
+                                  <p><strong>Live View URL:</strong><a href="https://whispering-hamlet-80388.herokuapp.com/#portfolio" target="_blank">My Portfolio</a></p>
+
+
+
+                                  <ul class="list-inline">
+                                    <li><strong>Date:</strong>February 2017</li>
+                                    <li><strong>Setting:</strong> <a href="#" target="_blank">Personal Project</a></li>
+                                    <li><strong>Category:</strong>Full Stack Development</li>
+                                  </ul>
+
+                                    <hr class="primary">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Tic Tac Toe</h2>
+                                <p class="item-intro text-muted">Build with jquery</p>
+                                <%= image_tag(image_path('41.jpg'), class:'img-responsive img-centered') %>
+
+                                <%= image_tag(image_path('42.jpg'), class:'img-responsive img-centered') %>
+
+                                <%= image_tag(image_path('43.jpg'), class:'img-responsive img-centered') %>
+
+
+
+                                <p>This Tic Tac Toe Game was created during a colloborative pair programming session with jQuery, HTML and CSS! The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled.</p>
+                                <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/tictactoe_game" target="_blank"> github.com/shiversamar/tictactoe_game</a></p>
+                                <p><strong>View Live URL:</strong><a href="https://shiversamar.github.io/tictactoe_game/" target="_blank">Tic Tac Toe Game</a></p>
+
+
+
+                                <ul class="list-inline">
+                                  <li><strong>Date:</strong> October 2016</li>
+                                  <li><strong>Setting:</strong> <a href="https://www.learnacademy.org/days/480" target="_blank">Learn Academy Exercise</a></li>
+                                  <li><strong>Category:</strong>Front End Development</li>
+                                </ul>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Magic8 Crystal Ball</h2>
+                                <p class="item-intro text-muted">Built with Jquery</p>
+
+                                <%= image_tag(image_path('port5.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('51.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('52.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('53.jpg'), class:'img-responsive img-centered') %>
+
+
+                                <p>This Magic8 Crystal Ball Game was created during a colloborative pair programming session with jQuery, HTML and CSS! Magic 8 Crystal Ball® has all the answers you need! Ask any question on any matter and you’ll get the answer.</p>
+
+                                <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/crystallBall" target="_blank"> github.com/shiversamar/crystallBall</a></p>
+                                <p><strong>Live View URL:</strong><a href="https://shiversamar.github.io/crystallBall/" target="_blank">Magic8 Crystal Ball</a></p>
+
+
+
+                                <ul class="list-inline">
+                                  <li><strong>Date:</strong>February 2016</li>
+                                  <li><strong>Setting:</strong> <a href="https://www.learnacademy.org/jumpstart" target="_blank">Learn Academy Jumpstart</a></li>
+                                  <li><strong>Category:</strong>Front End Development</li>
+                                </ul>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>ACS Portfolio</h2>
+                                <p class="item-intro text-muted">Ruby on Rails and Bootstrap.</p>
+
+                                <%= image_tag(image_path('ror.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('61.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('62.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('63.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('64.jpg'), class:'img-responsive img-centered') %>
+                                <%= image_tag(image_path('65.jpg'), class:'img-responsive img-centered') %>
+
+                                <p>This ACS Portfolio was created using jQuery, HTML, CSS and Ruby on Rails!</p>
+                                <p><strong>Github Repo:</strong><a href="https://github.com/shiversamar/acs_portfolio" target="_blank"> github.com/shiversamar/BattleShipDay1</a></p>
+                                <p><strong> Live View URL:</strong><a href="https://amarshiversherokuapp.com" target="_blank">acs_portfolio</a></p>
+
+
+
+                                <ul class="list-inline">
+                                  <li><strong>Date:</strong> January 2017</li>
+                                  <li><strong>Setting:</strong> <a href="https://amarshivers.herokuapp.com" target="_blank">Personal Project</a></li>
+                                  <li><strong>Category:</strong> Full Stack Development</li>
+                                </ul>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
