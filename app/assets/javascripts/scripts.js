@@ -15,7 +15,7 @@ $(function(){
   };
 
 
-  window.addEventListener('hashchange', function(){ 
+  window.addEventListener('hashchange', function(){
     hashCheck();
   });
 
