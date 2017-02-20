@@ -18,8 +18,8 @@
 //= require stellar
 //= require smoothScroll
 //= require scripts
-//= require search
-//= require contact_me
+
+
 //= require agency
 //= jqBootstrapValidation.js
 //= require_tree .
